@@ -33,5 +33,5 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- script: dotnet build --configuration '$(buildConfiguration)'
+- script: dotnet build --configuration Release
   displayName: 'dotnet build $(buildConfiguration)'
